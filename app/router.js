@@ -11,6 +11,9 @@ Router.map(function() {
   this.route('author', { path: '/author/:author_id' });
   this.route('authors');
   this.route('publishing-houses');
+  this.route('contactus');
+  this.route('account');
+  this.route('aboutus');
 });
 
 export default Router;

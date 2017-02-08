@@ -1,6 +1,12 @@
+ {{render "navigation"}}
+<img src={{logoUrl}} alt="Logo" style="float:left; padding:10px">
 <h2 id="title">
-  {{link-to "Our Awesome Bookstore" 'books'}}
+  {{link-to "Kirsty's Bookstore" 'books'}}
 </h2>
+<div style="float:none; clear: both"></div>
+
+
+
 
 <div class="{{if blur 'blur-background' ''}}">
   {{outlet}}
